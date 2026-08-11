@@ -67,6 +67,7 @@
   "client_routing": {
     "public_repository_url": "https://git.zapret.moe/zapretkvn/vpnbot-network-policy",
     "raw_base_url": "https://git.zapret.moe/zapretkvn/vpnbot-network-policy/raw/branch/main",
+    "destination_asn_bootstrap_url": "https://git.zapret.moe/zapretkvn/vpnbot-network-policy/raw/branch/main/generated/destination-asn-prefixes.json",
     "runetfreedom_geoip_url": "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/release/geoip.dat",
     "runetfreedom_geosite_url": "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/release/geosite.dat",
     "runetfreedom_template_url": "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-custom-routing-list/refs/heads/main/v2rayN/template.json",
