@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "policy_id": "vpnbot-ru-egress-v1",
+  "geoip": {
+    "ipv4_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/ru.list",
+    "ipv6_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/ru.list",
+    "minimum_ipv4_networks": 5000,
+    "minimum_ipv6_networks": 5000,
+    "refresh_interval_seconds": 21600
+  },
+  "hysteria": {
+    "geoip_url": "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geoip.dat",
+    "geoip_fallback_urls": [
+      "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat"
+    ],
+    "geosite_url": "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geosite.dat",
+    "geosite_fallback_urls": [
+      "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat"
+    ]
+  },
+  "xray": {
+    "external_geosite_url": "https://github.com/hydraponique/roscomvpn-geosite/releases/latest/download/geosite.dat",
+    "external_geosite_file": "roscomvpn-geosite.dat",
+    "external_geosite_tag": "category-ru",
+    "blocked_ip_matchers": [
+      "geoip:ru"
+    ]
+  },
+  "blocked_destination_asns": [
+    {
+      "asn": 13238,
+      "label": "yandex",
+      "expected_holder_pattern": "(?i)\\bYANDEX\\b",
+      "minimum_ipv4_prefixes": 20,
+      "maximum_ipv4_prefixes": 80,
+      "minimum_ipv6_prefixes": 5,
+      "maximum_ipv6_prefixes": 64
+    },
+    {
+      "asn": 47541,
+      "label": "vk-spb",
+      "expected_holder_pattern": "(?i)\\bVK(?:ONTAKTE)?\\b",
+      "minimum_ipv4_prefixes": 10,
+      "maximum_ipv4_prefixes": 64,
+      "minimum_ipv6_prefixes": 1,
+      "maximum_ipv6_prefixes": 32
+    },
+    {
+      "asn": 47764,
+      "label": "vk",
+      "expected_holder_pattern": "(?i)\\bVK\\b",
+      "minimum_ipv4_prefixes": 50,
+      "maximum_ipv4_prefixes": 180,
+      "minimum_ipv6_prefixes": 1,
+      "maximum_ipv6_prefixes": 32
+    },
+    {
+      "asn": 44386,
+      "label": "ozon",
+      "expected_holder_pattern": "(?i)\\bOZON\\b",
+      "minimum_ipv4_prefixes": 5,
+      "maximum_ipv4_prefixes": 32,
+      "minimum_ipv6_prefixes": 0,
+      "maximum_ipv6_prefixes": 8
+    }
+  ],
+  "client_routing": {
+    "public_repository_url": "https://git.zapret.moe/zapretkvn/vpnbot-network-policy",
+    "raw_base_url": "https://git.zapret.moe/zapretkvn/vpnbot-network-policy/raw/branch/main",
+    "runetfreedom_geoip_url": "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/release/geoip.dat",
+    "runetfreedom_geosite_url": "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/release/geosite.dat",
+    "runetfreedom_template_url": "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-custom-routing-list/refs/heads/main/v2rayN/template.json",
+    "refresh_interval_seconds": 21600
+  },
+  "blocked_domain_suffixes": [
+    "ru",
+    "su",
+    "xn--p1ai"
+  ],
+  "blocked_domain_hosts": [
+    "ya.ru",
+    "yandex.com",
+    "yandex.net",
+    "yastatic.net",
+    "vk.com",
+    "ozon.com"
+  ],
+  "allowed_domain_suffixes": [
+    "pally.info",
+    "pal24.pro",
+    "donatepay.ru",
+    "donationalerts.com",
+    "www.donationalerts.com",
+    "kodikplayer.com",
+    "kodikres.com",
+    "kodik-cdn.com",
+    "habr.com",
+    "habrastorage.org",
+    "hsto.org",
+    "loopy.ru",
+    "zapret.moe",
+    "championat.com",
+    "4pda.to",
+    "lordfilm.ru",
+    "lordfilm.com",
+    "lordfilm.tv",
+    "lordfilm.lu",
+    "lordfilm.gg",
+    "lordfilm.black",
+    "lordfilm.film",
+    "lordfilm1.ru",
+    "lordfilm2.ru",
+    "lordfilm2025.ru",
+    "majestic-rp.ru",
+    "majestic-launcher.ru",
+    "majestic-files.net",
+    "majestic-files.com",
+    "gta5majestic.com"
+  ],
+  "force_direct_domain_suffixes": [
+    "rutracker.org",
+    "rutracker.cc",
+    "static.rutracker.cc",
+    "bingwallpaper.anerg.com",
+    "koreanrandom.com"
+  ],
+  "forward_interfaces": [
+    "awg0",
+    "wg0"
+  ],
+  "process_users": [
+    "vpnbot-socks"
+  ],
+  "dns_redirect_port": 15354,
+  "dns_upstreams": [
+    "1.1.1.1",
+    "1.0.0.1"
+  ],
+  "system_dns_readiness": {
+    "required_domains": [
+      "www.yandex.ru",
+      "www.wildberries.ru",
+      "rutube.ru",
+      "www.ozon.ru",
+      "www.amd.com",
+      "www.intel.com",
+      "www.nvidia.com",
+      "www.hp.com",
+      "www.google.com",
+      "www.cloudflare.com",
+      "www.oracle.com",
+      "www.bing.com",
+      "www.sony.com",
+      "telegram.org",
+      "api.telegram.org",
+      "t.me",
+      "www.youtube.com",
+      "i.ytimg.com",
+      "youtubei.googleapis.com",
+      "redirector.googlevideo.com",
+      "example.com",
+      "www.microsoft.com",
+      "www.apple.com",
+      "www.gstatic.com"
+    ],
+    "minimum_successes": 18,
+    "required_groups": [
+      {
+        "id": "russian_reality",
+        "domains": [
+          "www.yandex.ru",
+          "www.wildberries.ru",
+          "rutube.ru",
+          "www.ozon.ru"
+        ],
+        "minimum_successes": 3
+      },
+      {
+        "id": "global_reality_camouflage",
+        "domains": [
+          "www.amd.com",
+          "www.intel.com",
+          "www.nvidia.com",
+          "www.hp.com",
+          "www.google.com",
+          "www.cloudflare.com",
+          "www.oracle.com",
+          "www.bing.com",
+          "www.sony.com"
+        ],
+        "minimum_successes": 7
+      },
+      {
+        "id": "telegram",
+        "domains": [
+          "telegram.org",
+          "api.telegram.org",
+          "t.me"
+        ],
+        "minimum_successes": 2
+      },
+      {
+        "id": "youtube",
+        "domains": [
+          "www.youtube.com",
+          "i.ytimg.com",
+          "youtubei.googleapis.com",
+          "redirector.googlevideo.com"
+        ],
+        "minimum_successes": 3
+      },
+      {
+        "id": "neutral_global",
+        "domains": [
+          "example.com",
+          "www.microsoft.com",
+          "www.apple.com",
+          "www.gstatic.com"
+        ],
+        "minimum_successes": 3
+      }
+    ]
+  }
+}

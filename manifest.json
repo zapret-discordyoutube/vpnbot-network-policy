@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "policy_id": "vpnbot-ru-egress-v1",
+  "source_policy_sha256": "b6a9f99acd45ad4bad2e505156e9abd043cc6279d2421815ea83483e8bf6e9bf",
+  "generated_at": "2026-08-11T17:28:47.722284+00:00",
+  "files": {
+    "README.md": {
+      "sha256": "e498b83fc6a7537437dcae657cd5fde9a7b357f4020039281dc5caa45023b1e2",
+      "size": 3023
+    },
+    "generated/destination-asn-prefixes.json": {
+      "sha256": "ca4d916dc53f0c6fc1a99dfef0a4094cb58326ce922e148447640eacdfe9d699",
+      "size": 4280
+    },
+    "generated/site-expectations.json": {
+      "sha256": "441b901ceea84d90abe86db4e6495e484b99e672bff7464fad966b1a9e01cc0c",
+      "size": 200
+    },
+    "mihomo/direct-domains.yaml": {
+      "sha256": "16a55dcf6fd2a577a35074590df054fac4615564b58e86dea99fbe7dc5f96a70",
+      "size": 229
+    },
+    "mihomo/direct-ipcidr.yaml": {
+      "sha256": "ae62d941d9edf9314c16f9f5395f91c8e45e1b8223a7af6413d27869088cf8d5",
+      "size": 599784
+    },
+    "mihomo/proxy-exceptions.yaml": {
+      "sha256": "b27e087e6102b53d1d8f1174cec1a85d3be28c814968ce550c9a1671ed0bd042",
+      "size": 850
+    },
+    "policy.json": {
+      "sha256": "b6a9f99acd45ad4bad2e505156e9abd043cc6279d2421815ea83483e8bf6e9bf",
+      "size": 5951
+    },
+    "v2rayN/all.json": {
+      "sha256": "63a5b325089f99e1f20c9f4696c448a7985c967956abb6eaffe7cb19ccd0627d",
+      "size": 527
+    },
+    "v2rayN/all_except_ru.json": {
+      "sha256": "56ce1e4bea26f6400a35d5bbb853b9f97764eee121533c0a45d9eba72debde70",
+      "size": 5487
+    },
+    "v2rayN/only_blocked.json": {
+      "sha256": "7f1cfd5d1304a4f8442902931670256bd8c2b214c2c351c6c1648fee8e2f9639",
+      "size": 6232
+    },
+    "v2rayN/template.json": {
+      "sha256": "81534b3c88d2b419c9f8cbb62aa5ee256fed256b93749de71c5fe3d58df828c5",
+      "size": 715
+    }
+  }
+}

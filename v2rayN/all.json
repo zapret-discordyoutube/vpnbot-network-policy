@@ -1,0 +1,27 @@
+[
+  {
+    "outboundTag": "block",
+    "domain": [
+      "geosite:category-ads-all"
+    ],
+    "enabled": true,
+    "remarks": "Блокировка рекламы"
+  },
+  {
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:private"
+    ],
+    "domain": [
+      "geosite:private"
+    ],
+    "enabled": true,
+    "remarks": "Приватные сети и домены напрямую"
+  },
+  {
+    "outboundTag": "proxy",
+    "port": "0-65535",
+    "enabled": true,
+    "remarks": "Остальное через VPN"
+  }
+]
