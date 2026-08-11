@@ -1,19 +1,25 @@
 {
   "proxy": [
     "4pda.to",
+    "habr.com",
+    "ibm.com",
+    "stackoverflow.com",
+    "duolingo.com"
+  ],
+  "blocked": [
+    "rkn.gov.ru",
+    "government.ru",
+    "gosuslugi.ru",
+    "api.ipify.org",
+    "child.trace-flow.ru"
+  ],
+  "direct": [
     "loopy.ru",
     "championat.com",
-    "habr.com",
     "market.yandex.ru",
     "mc.yandex.ru",
     "yastatic.net",
     "vk.com",
     "ozon.ru"
-  ],
-  "blocked": [
-    "rkn.gov.ru",
-    "government.ru",
-    "gosuslugi.ru"
-  ],
-  "direct": []
+  ]
 }

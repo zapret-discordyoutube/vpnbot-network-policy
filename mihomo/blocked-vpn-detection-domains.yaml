@@ -1,16 +1,5 @@
-# Compatibility deny provider for existing Mihomo profiles.
+# Generated VPN-detection and VPN-address exfiltration destinations.
 payload:
-  - "+.gov.ru"
-  - "+.government.ru"
-  - "+.kremlin.ru"
-  - "+.gosuslugi.ru"
-  - "+.mil.ru"
-  - "+.fsb.ru"
-  - "+.sudrf.ru"
-  - "+.sledcom.ru"
-  - "+.cikrf.ru"
-  - "+.mos.ru"
-  - "+.xn--b1aew.xn--p1ai"
   - "+.mobileproxy.passport.yandex.net"
   - "+.relay-api.eu.2gis.com"
   - "+.api.ipify.org"

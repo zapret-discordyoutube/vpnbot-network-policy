@@ -38,6 +38,92 @@
     "xn--b1aew.xn--p1ai"
   ],
   "blocked_government_domain_hosts": [],
+  "blocked_vpn_detection_domain_suffixes": [
+    {
+      "domain_suffix": "mobileproxy.passport.yandex.net",
+      "classification": "dedicated-vpn-detection",
+      "action": "block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "relay-api.eu.2gis.com",
+      "classification": "dedicated-vpn-detection",
+      "action": "block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "api.ipify.org",
+      "classification": "public-ip-discovery",
+      "action": "block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "checkip.amazonaws.com",
+      "classification": "public-ip-discovery",
+      "action": "block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "ifconfig.me",
+      "classification": "public-ip-discovery",
+      "action": "block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "ip.mail.ru",
+      "classification": "public-ip-discovery",
+      "action": "block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "ipv4-internet.yandex.net",
+      "classification": "public-ip-discovery",
+      "action": "block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "ipv6-internet.yandex.net",
+      "classification": "public-ip-discovery",
+      "action": "block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "trace-flow.ru",
+      "classification": "vpn-status-exfiltration",
+      "action": "block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "api.oneme.ru",
+      "classification": "vpn-status-exfiltration",
+      "action": "block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "vk-analytics.ru",
+      "classification": "vpn-status-exfiltration",
+      "action": "block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "apptracer.ru",
+      "classification": "vpn-status-exfiltration",
+      "action": "block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    }
+  ],
   "force_direct_domain_suffixes": [
     "rutracker.org",
     "rutracker.cc",

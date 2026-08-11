@@ -29,6 +29,25 @@
   {
     "outboundTag": "block",
     "domain": [
+      "domain:mobileproxy.passport.yandex.net",
+      "domain:relay-api.eu.2gis.com",
+      "domain:api.ipify.org",
+      "domain:checkip.amazonaws.com",
+      "domain:ifconfig.me",
+      "domain:ip.mail.ru",
+      "domain:ipv4-internet.yandex.net",
+      "domain:ipv6-internet.yandex.net",
+      "domain:trace-flow.ru",
+      "domain:api.oneme.ru",
+      "domain:vk-analytics.ru",
+      "domain:apptracer.ru"
+    ],
+    "enabled": true,
+    "remarks": "Проверка VPN и передача адреса заблокированы"
+  },
+  {
+    "outboundTag": "block",
+    "domain": [
       "domain:gov.ru",
       "domain:government.ru",
       "domain:kremlin.ru",
@@ -77,6 +96,17 @@
     ],
     "enabled": true,
     "remarks": "Заблокированные в России домены через VPN"
+  },
+  {
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:ru"
+    ],
+    "domain": [
+      "geosite:category-ru"
+    ],
+    "enabled": true,
+    "remarks": "Остальные российские сайты и приложения напрямую"
   },
   {
     "outboundTag": "direct",
