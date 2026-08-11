@@ -1,5 +1,13 @@
 [
   {
+    "outboundTag": "direct",
+    "protocol": [
+      "bittorrent"
+    ],
+    "enabled": true,
+    "remarks": "Торрент напрямую"
+  },
+  {
     "outboundTag": "block",
     "domain": [
       "geosite:category-ads-all"
@@ -17,6 +25,24 @@
     ],
     "enabled": true,
     "remarks": "Приватные сети и домены напрямую"
+  },
+  {
+    "outboundTag": "block",
+    "domain": [
+      "domain:gov.ru",
+      "domain:government.ru",
+      "domain:kremlin.ru",
+      "domain:gosuslugi.ru",
+      "domain:mil.ru",
+      "domain:fsb.ru",
+      "domain:sudrf.ru",
+      "domain:sledcom.ru",
+      "domain:cikrf.ru",
+      "domain:mos.ru",
+      "domain:xn--b1aew.xn--p1ai"
+    ],
+    "enabled": true,
+    "remarks": "Государственные ресурсы заблокированы"
   },
   {
     "outboundTag": "proxy",

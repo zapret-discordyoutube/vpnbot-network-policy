@@ -1,11 +1,2 @@
-# Generated Russian-domain policy that must stay on the client direct path.
-payload:
-  - "+.ru"
-  - "+.su"
-  - "+.xn--p1ai"
-  - "+.ya.ru"
-  - "+.yandex.com"
-  - "+.yandex.net"
-  - "+.yastatic.net"
-  - "+.vk.com"
-  - "+.ozon.com"
+# Legacy compatibility provider. Broad RU DIRECT routing is retired.
+payload: []

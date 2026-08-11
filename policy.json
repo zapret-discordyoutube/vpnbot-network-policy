@@ -1,123 +1,43 @@
 {
-  "schema_version": 1,
-  "policy_id": "vpnbot-ru-egress-v1",
-  "geoip": {
-    "ipv4_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/ru.list",
-    "ipv6_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/ru.list",
-    "minimum_ipv4_networks": 5000,
-    "minimum_ipv6_networks": 5000,
-    "refresh_interval_seconds": 21600
-  },
-  "hysteria": {
-    "geoip_url": "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geoip.dat",
-    "geoip_fallback_urls": [
-      "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat"
-    ],
-    "geosite_url": "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geosite.dat",
-    "geosite_fallback_urls": [
-      "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat"
+  "schema_version": 2,
+  "policy_id": "vpnbot-network-policy-v2",
+  "ingress": {
+    "camouflage_source_cidrs": [
+      {
+        "cidr": "85.142.100.0/24",
+        "classification": "observed-scanner",
+        "action": "camouflage"
+      },
+      {
+        "cidr": "212.192.158.0/24",
+        "classification": "observed-scanner",
+        "action": "camouflage"
+      }
     ]
   },
-  "xray": {
-    "external_geosite_url": "https://github.com/hydraponique/roscomvpn-geosite/releases/latest/download/geosite.dat",
-    "external_geosite_file": "roscomvpn-geosite.dat",
-    "external_geosite_tag": "category-ru",
-    "blocked_ip_matchers": [
-      "geoip:ru"
-    ]
-  },
-  "blocked_destination_asns": [
-    {
-      "asn": 13238,
-      "label": "yandex",
-      "expected_holder_pattern": "(?i)\\bYANDEX\\b",
-      "minimum_ipv4_prefixes": 20,
-      "maximum_ipv4_prefixes": 80,
-      "minimum_ipv6_prefixes": 5,
-      "maximum_ipv6_prefixes": 64
-    },
-    {
-      "asn": 47541,
-      "label": "vk-spb",
-      "expected_holder_pattern": "(?i)\\bVK(?:ONTAKTE)?\\b",
-      "minimum_ipv4_prefixes": 10,
-      "maximum_ipv4_prefixes": 64,
-      "minimum_ipv6_prefixes": 1,
-      "maximum_ipv6_prefixes": 32
-    },
-    {
-      "asn": 47764,
-      "label": "vk",
-      "expected_holder_pattern": "(?i)\\bVK\\b",
-      "minimum_ipv4_prefixes": 50,
-      "maximum_ipv4_prefixes": 180,
-      "minimum_ipv6_prefixes": 1,
-      "maximum_ipv6_prefixes": 32
-    },
-    {
-      "asn": 44386,
-      "label": "ozon",
-      "expected_holder_pattern": "(?i)\\bOZON\\b",
-      "minimum_ipv4_prefixes": 5,
-      "maximum_ipv4_prefixes": 32,
-      "minimum_ipv6_prefixes": 0,
-      "maximum_ipv6_prefixes": 8
-    }
-  ],
+  "blocked_destination_cidrs": [],
   "client_routing": {
     "public_repository_url": "https://git.zapret.moe/zapretkvn/vpnbot-network-policy",
     "raw_base_url": "https://git.zapret.moe/zapretkvn/vpnbot-network-policy/raw/branch/main",
-    "destination_asn_bootstrap_url": "https://git.zapret.moe/zapretkvn/vpnbot-network-policy/raw/branch/main/generated/destination-asn-prefixes.json",
     "runetfreedom_geoip_url": "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/release/geoip.dat",
     "runetfreedom_geosite_url": "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/release/geosite.dat",
     "runetfreedom_template_url": "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-custom-routing-list/refs/heads/main/v2rayN/template.json",
     "refresh_interval_seconds": 21600
   },
-  "blocked_domain_suffixes": [
-    "ru",
-    "su",
-    "xn--p1ai"
+  "blocked_government_domain_suffixes": [
+    "gov.ru",
+    "government.ru",
+    "kremlin.ru",
+    "gosuslugi.ru",
+    "mil.ru",
+    "fsb.ru",
+    "sudrf.ru",
+    "sledcom.ru",
+    "cikrf.ru",
+    "mos.ru",
+    "xn--b1aew.xn--p1ai"
   ],
-  "blocked_domain_hosts": [
-    "ya.ru",
-    "yandex.com",
-    "yandex.net",
-    "yastatic.net",
-    "vk.com",
-    "ozon.com"
-  ],
-  "allowed_domain_suffixes": [
-    "pally.info",
-    "pal24.pro",
-    "donatepay.ru",
-    "donationalerts.com",
-    "www.donationalerts.com",
-    "kodikplayer.com",
-    "kodikres.com",
-    "kodik-cdn.com",
-    "habr.com",
-    "habrastorage.org",
-    "hsto.org",
-    "loopy.ru",
-    "zapret.moe",
-    "championat.com",
-    "4pda.to",
-    "lordfilm.ru",
-    "lordfilm.com",
-    "lordfilm.tv",
-    "lordfilm.lu",
-    "lordfilm.gg",
-    "lordfilm.black",
-    "lordfilm.film",
-    "lordfilm1.ru",
-    "lordfilm2.ru",
-    "lordfilm2025.ru",
-    "majestic-rp.ru",
-    "majestic-launcher.ru",
-    "majestic-files.net",
-    "majestic-files.com",
-    "gta5majestic.com"
-  ],
+  "blocked_government_domain_hosts": [],
   "force_direct_domain_suffixes": [
     "rutracker.org",
     "rutracker.cc",

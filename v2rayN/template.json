@@ -1,12 +1,12 @@
 {
-  "version": "VPnBot-RU-v1",
+  "version": "VPnBot-Network-v2",
   "routingItems": [
     {
-      "remarks": "VPnBot: Всё через VPN",
+      "remarks": "VPnBot: Всё через VPN, госресурсы заблокированы",
       "url": "https://git.zapret.moe/zapretkvn/vpnbot-network-policy/raw/branch/main/v2rayN/all.json"
     },
     {
-      "remarks": "VPnBot: Всё, кроме российских сайтов",
+      "remarks": "VPnBot: Совместимый безопасный профиль",
       "domainStrategy": "IPOnDemand",
       "url": "https://git.zapret.moe/zapretkvn/vpnbot-network-policy/raw/branch/main/v2rayN/all_except_ru.json"
     },

@@ -3,13 +3,17 @@
     "4pda.to",
     "loopy.ru",
     "championat.com",
-    "habr.com"
-  ],
-  "direct": [
+    "habr.com",
     "market.yandex.ru",
     "mc.yandex.ru",
     "yastatic.net",
     "vk.com",
     "ozon.ru"
-  ]
+  ],
+  "blocked": [
+    "rkn.gov.ru",
+    "government.ru",
+    "gosuslugi.ru"
+  ],
+  "direct": []
 }
