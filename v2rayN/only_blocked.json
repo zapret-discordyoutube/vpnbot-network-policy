@@ -27,6 +27,24 @@
     "remarks": "Приватные сети и домены напрямую"
   },
   {
+    "outboundTag": "proxy",
+    "ip": [
+      "1.0.0.1",
+      "1.1.1.1",
+      "8.8.8.8",
+      "8.8.4.4"
+    ],
+    "enabled": true,
+    "remarks": "Публичный DNS через VPN"
+  },
+  {
+    "outboundTag": "proxy",
+    "port": "50000-65535",
+    "network": "udp",
+    "enabled": true,
+    "remarks": "Discord voice через VPN"
+  },
+  {
     "outboundTag": "block",
     "domain": [
       "domain:mobileproxy.passport.yandex.net",
@@ -66,24 +84,6 @@
   {
     "outboundTag": "proxy",
     "ip": [
-      "1.0.0.1",
-      "1.1.1.1",
-      "8.8.8.8",
-      "8.8.4.4"
-    ],
-    "enabled": true,
-    "remarks": "Публичный DNS через VPN"
-  },
-  {
-    "outboundTag": "proxy",
-    "port": "50000-65535",
-    "network": "udp",
-    "enabled": true,
-    "remarks": "Discord voice через VPN"
-  },
-  {
-    "outboundTag": "proxy",
-    "ip": [
       "geoip:ru-blocked"
     ],
     "enabled": true,
@@ -96,6 +96,15 @@
     ],
     "enabled": true,
     "remarks": "Заблокированные в России домены через VPN"
+  },
+  {
+    "outboundTag": "direct",
+    "domain": [
+      "domain:loopy.ru",
+      "domain:championat.com"
+    ],
+    "enabled": true,
+    "remarks": "Проверенные российские сайты напрямую"
   },
   {
     "outboundTag": "direct",

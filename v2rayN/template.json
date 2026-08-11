@@ -3,6 +3,7 @@
   "routingItems": [
     {
       "remarks": "VPnBot: Россия напрямую, остальное через VPN",
+      "domainStrategy": "IPOnDemand",
       "url": "https://git.zapret.moe/zapretkvn/vpnbot-network-policy/raw/branch/main/v2rayN/all.json"
     },
     {

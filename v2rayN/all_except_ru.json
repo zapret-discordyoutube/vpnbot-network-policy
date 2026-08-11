@@ -81,6 +81,15 @@
   },
   {
     "outboundTag": "direct",
+    "domain": [
+      "domain:loopy.ru",
+      "domain:championat.com"
+    ],
+    "enabled": true,
+    "remarks": "Проверенные российские сайты напрямую"
+  },
+  {
+    "outboundTag": "direct",
     "ip": [
       "geoip:ru"
     ],

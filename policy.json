@@ -22,6 +22,10 @@
     "runetfreedom_geoip_url": "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/release/geoip.dat",
     "runetfreedom_geosite_url": "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/release/geosite.dat",
     "runetfreedom_template_url": "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-custom-routing-list/refs/heads/main/v2rayN/template.json",
+    "direct_domain_suffixes": [
+      "loopy.ru",
+      "championat.com"
+    ],
     "refresh_interval_seconds": 21600
   },
   "blocked_government_domain_suffixes": [

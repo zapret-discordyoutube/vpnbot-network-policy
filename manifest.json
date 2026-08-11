@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "policy_id": "vpnbot-network-policy-v2",
-  "source_policy_sha256": "5b7a981d129096d29ebf9687c454c4ce1fae39c7ff0775c01ae704a92005c091",
-  "generated_at": "2026-08-11T22:20:27.744320+00:00",
+  "source_policy_sha256": "1ddda056ed80151c658dd59c9b0306bebd2d228dbf25412facc28eee98c243ba",
+  "generated_at": "2026-08-11T22:43:36.566321+00:00",
   "files": {
     "README.md": {
-      "sha256": "6bf448363fc9eb7ea2e150fe6cf005d014d19bcd0755412c428f8d7885efaa1d",
-      "size": 3607
+      "sha256": "3a78bae99f9925a8bf712cbaa3771c785ddca6d5274e49b5943302c8ea7fb2a6",
+      "size": 3764
     },
     "generated/destination-asn-prefixes.json": {
-      "sha256": "41cde1a9c5fb800d64608d69b92d1308b4199e5173c0280050993ba0353f8d8d",
+      "sha256": "5cd36a4b44dc00761c95bfe836b514ea5acf8b3fb8ba79dc478b8f50eef707a5",
       "size": 295
     },
     "generated/site-expectations.json": {
@@ -32,6 +32,10 @@
       "sha256": "681b85544bd3a3c149915992bd3808fe46ca3039a11b506b1b3220a0727a9563",
       "size": 393
     },
+    "mihomo/client-direct-domains.yaml": {
+      "sha256": "5b87f61ba8f4b1863e6ebefe6a1bc3ff5dcea42460d5efcb7cba972cb9386fa2",
+      "size": 112
+    },
     "mihomo/direct-domains.yaml": {
       "sha256": "293195cbf966e5795cbfcfbfafd6b05b376f1c44de15c95c5961f7681b007020",
       "size": 81
@@ -45,24 +49,24 @@
       "size": 89
     },
     "policy.json": {
-      "sha256": "5b7a981d129096d29ebf9687c454c4ce1fae39c7ff0775c01ae704a92005c091",
-      "size": 6792
+      "sha256": "1ddda056ed80151c658dd59c9b0306bebd2d228dbf25412facc28eee98c243ba",
+      "size": 6872
     },
     "v2rayN/all.json": {
-      "sha256": "4e5dc608b50b5bb6f8fffa7f75804b09144fed6fbf3054852a8f8ae40ee9c5a3",
-      "size": 2373
+      "sha256": "99842b1cb03af604fdc65560b60f0ddf7263f8ecc0fa3fe97cf4b1a85943bf5b",
+      "size": 2599
     },
     "v2rayN/all_except_ru.json": {
-      "sha256": "4e5dc608b50b5bb6f8fffa7f75804b09144fed6fbf3054852a8f8ae40ee9c5a3",
-      "size": 2373
+      "sha256": "99842b1cb03af604fdc65560b60f0ddf7263f8ecc0fa3fe97cf4b1a85943bf5b",
+      "size": 2599
     },
     "v2rayN/only_blocked.json": {
-      "sha256": "6d09bed467e97e137a11f2e2bffc1d1b31cc6e4cf8963d95ff4bae61bbb625f4",
-      "size": 2728
+      "sha256": "72453cbf223f1798eafcb72e7c4f40299158e7874f0d2071fde8a1fd1a5186de",
+      "size": 2954
     },
     "v2rayN/template.json": {
-      "sha256": "b2ecc77dc40904afa825af15454d1732f085a433f4eede6a20cfb907c2a496cb",
-      "size": 769
+      "sha256": "18fe3295fd91f3844140ff1e0c750e360c310928fb74ded95ff4e4555466e5d3",
+      "size": 807
     }
   }
 }

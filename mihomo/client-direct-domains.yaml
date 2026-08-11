@@ -1,0 +1,4 @@
+# Generated exact client domain suffixes that must use DIRECT.
+payload:
+  - "+.loopy.ru"
+  - "+.championat.com"
