@@ -147,6 +147,15 @@
   },
   {
     "outboundTag": "proxy",
+    "domain": [
+      "domain:4pda.to",
+      "domain:zapret.moe"
+    ],
+    "enabled": true,
+    "remarks": "Проверенные исключения всегда через VPN"
+  },
+  {
+    "outboundTag": "proxy",
     "ip": [
       "geoip:ru-blocked"
     ],

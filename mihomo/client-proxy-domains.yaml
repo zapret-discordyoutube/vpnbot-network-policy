@@ -1,0 +1,4 @@
+# Generated exact client domain suffixes that must use the VPN.
+payload:
+  - "+.4pda.to"
+  - "+.zapret.moe"

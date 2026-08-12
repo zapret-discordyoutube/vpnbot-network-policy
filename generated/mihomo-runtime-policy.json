@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "policy_id": "vpnbot-network-policy-v2",
+  "policy_version": "2026.08.12.1",
+  "source_policy_sha256": "fae5ed0aa0e7d0d30f588bbc78fd739ba6fbe41503f0234d02c1c71d246b6556",
+  "provider_snapshot_sha256": "371ec33a23dab1363f12bcceb7605f75a9f54e47e28b7b1979568be8e250e73d",
+  "critical_vpn_detection_domain_suffixes": [
+    "mobileproxy.passport.yandex.net",
+    "relay-api.eu.2gis.com",
+    "api.ipify.org",
+    "checkip.amazonaws.com",
+    "ifconfig.me",
+    "ip.mail.ru",
+    "ipv4-internet.yandex.net",
+    "ipv6-internet.yandex.net",
+    "trace-flow.ru",
+    "api.oneme.ru",
+    "vk-analytics.ru",
+    "apptracer.ru"
+  ],
+  "providers": {
+    "vpn_detection_extensions": {
+      "behavior": "domain",
+      "payload": []
+    },
+    "government_domains": {
+      "behavior": "domain",
+      "payload": [
+        "+.gov.ru",
+        "+.government.ru",
+        "+.kremlin.ru",
+        "+.gosuslugi.ru",
+        "+.mil.ru",
+        "+.fsb.ru",
+        "+.sudrf.ru",
+        "+.sledcom.ru",
+        "+.cikrf.ru",
+        "+.mos.ru",
+        "+.xn--b1aew.xn--p1ai"
+      ]
+    },
+    "government_networks": {
+      "behavior": "ipcidr",
+      "payload": []
+    },
+    "russian_service_domains": {
+      "behavior": "domain",
+      "payload": [
+        "+.2gis.com",
+        "+.2gis.ru",
+        "+.alfabank.com",
+        "+.alfabank.ru",
+        "+.avito.ru",
+        "+.clickstream.ru",
+        "+.dzen.ru",
+        "+.kinopoisk.ru",
+        "+.mail.ru",
+        "+.max.ru",
+        "+.megafon.ru",
+        "+.megamarket.ru",
+        "+.mironline.ru",
+        "+.mts.ru",
+        "+.my.com",
+        "+.mytracker.ru",
+        "+.nspk.ru",
+        "+.ok.ru",
+        "+.odnoklassniki.ru",
+        "+.oneme.ru",
+        "+.ozon.ru",
+        "+.privetmir.ru",
+        "+.rutube.ru",
+        "+.rustore.ru",
+        "+.samokat.ru",
+        "+.sber.ru",
+        "+.sberbank.com",
+        "+.sberbank.ru",
+        "+.sbrf.ru",
+        "+.tbank.ru",
+        "+.tinkoff.ru",
+        "+.userapi.com",
+        "+.vtb.ru",
+        "+.vk.com",
+        "+.vk.ru",
+        "+.vkvideo.ru",
+        "+.wb.ru",
+        "+.wildberries.ru",
+        "+.ya.ru",
+        "+.yandex.com",
+        "+.yandex.net",
+        "+.yandex.ru",
+        "+.yastat.net",
+        "+.yastatic.net",
+        "+.bankdomrf.ru",
+        "+.domrfbank.ru",
+        "+.gazprombank.ru",
+        "+.gazprompay.ru",
+        "+.gpb.ru",
+        "+.halvacard.ru",
+        "+.home.bank",
+        "+.homecredit.ru",
+        "+.mkb.ru",
+        "+.psbank.ru",
+        "+.raif.ru",
+        "+.raiffeisen.ru",
+        "+.raiffeisenbank.ru",
+        "+.rosbank.ru",
+        "+.rshb.ru",
+        "+.sovcombank.ru",
+        "+.unicredit.ru",
+        "+.unicreditbank.ru",
+        "+.akbars.ru",
+        "+.bspb.ru",
+        "+.tochka.com",
+        "+.yoomoney.ru",
+        "+.aliexpress.ru",
+        "+.kuper.ru",
+        "+.lamoda.ru",
+        "+.magnitmarket.ru",
+        "+.youla.ru",
+        "+.beeline.ru",
+        "+.rostelecom.ru",
+        "+.rt.ru",
+        "+.t2.ru"
+      ]
+    },
+    "client_proxy_domains": {
+      "behavior": "domain",
+      "payload": [
+        "+.4pda.to",
+        "+.zapret.moe"
+      ]
+    },
+    "client_direct_domains": {
+      "behavior": "domain",
+      "payload": [
+        "+.loopy.ru",
+        "+.championat.com"
+      ]
+    }
+  }
+}
