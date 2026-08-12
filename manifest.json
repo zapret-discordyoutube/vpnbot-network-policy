@@ -1,28 +1,28 @@
 {
   "schema_version": 1,
   "policy_id": "vpnbot-network-policy-v2",
-  "source_policy_sha256": "fae5ed0aa0e7d0d30f588bbc78fd739ba6fbe41503f0234d02c1c71d246b6556",
-  "generated_at": "2026-08-12T17:17:59.304131+00:00",
+  "source_policy_sha256": "50493035eadde273820a35be916ce2ea761460c7df3e4b3eaabd176ec4478ae2",
+  "generated_at": "2026-08-12T20:53:04.198105+00:00",
   "files": {
     "README.md": {
-      "sha256": "46f7eca2f23968b6e5e9ce4cefbf95a88385a9b6a9de611a5d18ad61683cb3cb",
+      "sha256": "6a287c90656f016e910d9b12be1d70476c8910e170bf85b79d0110f1e71bd7be",
       "size": 4333
     },
     "generated/destination-asn-prefixes.json": {
-      "sha256": "12ef9c1ae112408919e17a321c7b3c70a4aa5efa8d51cc8c6955c38ceb39dd64",
+      "sha256": "2d628228395e349f407ece6f2b6587e6b3cb9746389049179992aa17e7ce75a8",
       "size": 295
     },
     "generated/mihomo-runtime-policy.json": {
-      "sha256": "40d3e0f2d7281581e316bf5774cacb95b8950442a2804348f4f7825df089f913",
-      "size": 3339
+      "sha256": "3e5eec5e949b796647759cf1fdfe2fa757cb1ded088ca0257ba6cac9359149a9",
+      "size": 6368
     },
     "generated/route-expectations.json": {
-      "sha256": "23a9d368453cd7bdaadc000732d04991527a20a2c6d505414bb6f68315f35ab7",
-      "size": 21987
+      "sha256": "8c111d759c99eec16ed1baee5ad0c6e3312f4e3fcb2fe5ba07f3b90df33417f0",
+      "size": 33648
     },
     "mihomo/blocked-government-domains.yaml": {
-      "sha256": "c973a1653a5a122fdca2ded10b560187be5cc6d9d2455316fca43d67df9bf4ab",
-      "size": 1988
+      "sha256": "ae17bb0e619c62befa027e1480f2935abc0beecd6f739aaa8f7586ba906d1f86",
+      "size": 3529
     },
     "mihomo/blocked-government-ipcidr.yaml": {
       "sha256": "24d927b705e3f88200e1dd22eb149be689b8b69a3780bad0e5e5f479f09e4bad",
@@ -31,6 +31,14 @@
     "mihomo/blocked-government-only-domains.yaml": {
       "sha256": "e2b091704cd45fd069157a994db470ddf0c19dd6da0ff93af08164339de1d802",
       "size": 270
+    },
+    "mihomo/blocked-peer-to-peer-domains.yaml": {
+      "sha256": "5d2f02208bf6f40855f811b38a3ca7e3371c1d23ea8a02445090a0bb6abff5b4",
+      "size": 1613
+    },
+    "mihomo/blocked-peer-to-peer-ipcidr.yaml": {
+      "sha256": "1038259ac26b001b0f3d161c6f9c95e5b48a1a59319505520a14f2446cee9ddf",
+      "size": 914
     },
     "mihomo/blocked-russian-service-domains.yaml": {
       "sha256": "af0ca6e7b0b7c51802fd02169afb92e4ee38d4212ab08495fd74a7ddb75a61fe",
@@ -65,20 +73,20 @@
       "size": 89
     },
     "policy.json": {
-      "sha256": "fae5ed0aa0e7d0d30f588bbc78fd739ba6fbe41503f0234d02c1c71d246b6556",
-      "size": 29524
+      "sha256": "50493035eadde273820a35be916ce2ea761460c7df3e4b3eaabd176ec4478ae2",
+      "size": 32256
     },
     "v2rayN/all.json": {
-      "sha256": "3ec13c860d3885e816c0f65522fd9de762df35955ad77e869c568075643bed8e",
-      "size": 5027
+      "sha256": "cce6cbf00c544b14699b3c8a998404b9b221a38329002e4680ab5dbfe7a9e10b",
+      "size": 8179
     },
     "v2rayN/all_except_ru.json": {
-      "sha256": "3ec13c860d3885e816c0f65522fd9de762df35955ad77e869c568075643bed8e",
-      "size": 5027
+      "sha256": "cce6cbf00c544b14699b3c8a998404b9b221a38329002e4680ab5dbfe7a9e10b",
+      "size": 8179
     },
     "v2rayN/only_blocked.json": {
-      "sha256": "86bbe55e2a4bdcc19fe0bb91c06045ba9a2e7a37ee040a714d037f61867ed727",
-      "size": 5382
+      "sha256": "67a8d87b3504f47d4a583e02b44aa87b64af56a79f602afe3602a503091f2e49",
+      "size": 8534
     },
     "v2rayN/template.json": {
       "sha256": "18fe3295fd91f3844140ff1e0c750e360c310928fb74ded95ff4e4555466e5d3",

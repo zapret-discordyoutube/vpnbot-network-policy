@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "policy_id": "vpnbot-network-policy-v2",
-  "policy_version": "2026.08.12.1",
-  "source_policy_sha256": "fae5ed0aa0e7d0d30f588bbc78fd739ba6fbe41503f0234d02c1c71d246b6556",
+  "policy_version": "2026.08.12.2",
+  "source_policy_sha256": "50493035eadde273820a35be916ce2ea761460c7df3e4b3eaabd176ec4478ae2",
   "cases": [
     {
       "domain": "mobileproxy.passport.yandex.net",
@@ -881,6 +881,501 @@
       "domain": "t2.ru",
       "expected_route": "block",
       "policy_class": "russian-service-hard-block",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "tracker.opentrackr.org",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "tracker.openbittorrent.com",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "tracker.publicbt.com",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "tracker.internetwarriors.net",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "tracker.yoshi210.com",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "tracker.skyts.net",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "tracker.tiny-vps.com",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "tracker.coppersurfer.tk",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "tracker.leechers-paradise.org",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "tracker.torrent.eu.org",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "tracker.btzoo.eu",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "open.demonii.com",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "open.acgtracker.com",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "opensharing.org",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "announce.torrentsmd.com",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "bt.careland.com.cn",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "i.bandito.org",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "bttrack.9you.com",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "p4p.arenabg.com",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "explodie.org",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "9.rarbg.com",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "9.rarbg.me",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "9.rarbg.to",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "11.rarbg.com",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "ehtracker.org",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "tracker.grepler.com",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "tracker.seedoff.net",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "tracker.23794.top",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "tracker.yemekyedim.com",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "tracker.bt4g.com",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "trackers.run",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "tracker.itscraftsoftware.my.id",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "tracker1.520.jp",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "tracker2.dler.org",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "tracker1.itzmx.com",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "tracker.zhuqiy.top",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "tracker.waaa.moe",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "tracker.renfei.net",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "tracker.pmman.tech",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "tracker.leechshield.link",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "tracker.dler.org",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "tracker.dler.com",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "bittorrent-tracker.e-n-c-r-y-p-t.net",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "tracker.gcrenwp.top",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "tracker1.bt.moack.co.kr",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "tracker.zerobytes.xyz",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "tracker.ipv6tracker.org",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "tracker.foreverpirates.co",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "tracker.torrentfrancais.com",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "torrenttracker.nwc.acsalaska.net",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "nyaa.tracker.wf",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "itorrents-igruha.org",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "bittorrent.com",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "utorrent.com",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "dht.transmissionbt.com",
+      "expected_route": "block",
+      "policy_class": "peer-to-peer-discovery",
       "inline_required": false,
       "profile_modes": [
         "all"
