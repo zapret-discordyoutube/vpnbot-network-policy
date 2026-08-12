@@ -11,15 +11,17 @@
     "government.ru",
     "gosuslugi.ru",
     "api.ipify.org",
-    "child.trace-flow.ru"
-  ],
-  "direct": [
-    "loopy.ru",
-    "championat.com",
+    "child.trace-flow.ru",
     "market.yandex.ru",
     "mc.yandex.ru",
     "yastatic.net",
     "vk.com",
-    "ozon.ru"
+    "ozon.ru",
+    "tbank.ru",
+    "wildberries.ru"
+  ],
+  "direct": [
+    "loopy.ru",
+    "championat.com"
   ]
 }

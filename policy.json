@@ -128,6 +128,608 @@
       "evidence_date": "2026-04-16"
     }
   ],
+  "blocked_russian_service_domain_suffixes": [
+    {
+      "domain_suffix": "2gis.com",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "2gis.ru",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "alfabank.com",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "alfabank.ru",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "avito.ru",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "clickstream.ru",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "dzen.ru",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "kinopoisk.ru",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "mail.ru",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "max.ru",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "megafon.ru",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "megamarket.ru",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "mironline.ru",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "mts.ru",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "my.com",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "mytracker.ru",
+      "classification": "russian-tracker",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "nspk.ru",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "ok.ru",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "odnoklassniki.ru",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "oneme.ru",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "ozon.ru",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "privetmir.ru",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "rutube.ru",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "rustore.ru",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "samokat.ru",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "sber.ru",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "sberbank.com",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "sberbank.ru",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "sbrf.ru",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "tbank.ru",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "tinkoff.ru",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "userapi.com",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "vtb.ru",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "vk.com",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "vk.ru",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "vkvideo.ru",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "wb.ru",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "wildberries.ru",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "ya.ru",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "yandex.com",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "yandex.net",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "yandex.ru",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "yastat.net",
+      "classification": "russian-tracker",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "yastatic.net",
+      "classification": "rks-profiled-application",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
+      "evidence_date": "2026-04-16"
+    },
+    {
+      "domain_suffix": "bankdomrf.ru",
+      "classification": "systemically-important-bank",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://cbr.ru/banking_sector/credit/cowebsites/",
+      "evidence_date": "2026-08-03"
+    },
+    {
+      "domain_suffix": "domrfbank.ru",
+      "classification": "systemically-important-bank",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://cbr.ru/banking_sector/credit/cowebsites/",
+      "evidence_date": "2026-08-03"
+    },
+    {
+      "domain_suffix": "gazprombank.ru",
+      "classification": "systemically-important-bank",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://cbr.ru/banking_sector/credit/cowebsites/",
+      "evidence_date": "2026-08-03"
+    },
+    {
+      "domain_suffix": "gazprompay.ru",
+      "classification": "systemically-important-bank",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://cbr.ru/banking_sector/credit/cowebsites/",
+      "evidence_date": "2026-08-03"
+    },
+    {
+      "domain_suffix": "gpb.ru",
+      "classification": "systemically-important-bank",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://cbr.ru/banking_sector/credit/cowebsites/",
+      "evidence_date": "2026-08-03"
+    },
+    {
+      "domain_suffix": "halvacard.ru",
+      "classification": "systemically-important-bank",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://cbr.ru/banking_sector/credit/cowebsites/",
+      "evidence_date": "2026-08-03"
+    },
+    {
+      "domain_suffix": "home.bank",
+      "classification": "systemically-important-bank",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://cbr.ru/banking_sector/credit/cowebsites/",
+      "evidence_date": "2026-08-03"
+    },
+    {
+      "domain_suffix": "homecredit.ru",
+      "classification": "systemically-important-bank",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://cbr.ru/banking_sector/credit/cowebsites/",
+      "evidence_date": "2026-08-03"
+    },
+    {
+      "domain_suffix": "mkb.ru",
+      "classification": "systemically-important-bank",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://cbr.ru/banking_sector/credit/cowebsites/",
+      "evidence_date": "2026-08-03"
+    },
+    {
+      "domain_suffix": "psbank.ru",
+      "classification": "systemically-important-bank",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://cbr.ru/banking_sector/credit/cowebsites/",
+      "evidence_date": "2026-08-03"
+    },
+    {
+      "domain_suffix": "raif.ru",
+      "classification": "systemically-important-bank",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://cbr.ru/banking_sector/credit/cowebsites/",
+      "evidence_date": "2026-08-03"
+    },
+    {
+      "domain_suffix": "raiffeisen.ru",
+      "classification": "systemically-important-bank",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://cbr.ru/banking_sector/credit/cowebsites/",
+      "evidence_date": "2026-08-03"
+    },
+    {
+      "domain_suffix": "raiffeisenbank.ru",
+      "classification": "systemically-important-bank",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://cbr.ru/banking_sector/credit/cowebsites/",
+      "evidence_date": "2026-08-03"
+    },
+    {
+      "domain_suffix": "rosbank.ru",
+      "classification": "systemically-important-bank",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://cbr.ru/banking_sector/credit/cowebsites/",
+      "evidence_date": "2026-08-03"
+    },
+    {
+      "domain_suffix": "rshb.ru",
+      "classification": "systemically-important-bank",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://cbr.ru/banking_sector/credit/cowebsites/",
+      "evidence_date": "2026-08-03"
+    },
+    {
+      "domain_suffix": "sovcombank.ru",
+      "classification": "systemically-important-bank",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://cbr.ru/banking_sector/credit/cowebsites/",
+      "evidence_date": "2026-08-03"
+    },
+    {
+      "domain_suffix": "unicredit.ru",
+      "classification": "systemically-important-bank",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://cbr.ru/banking_sector/credit/cowebsites/",
+      "evidence_date": "2026-08-03"
+    },
+    {
+      "domain_suffix": "unicreditbank.ru",
+      "classification": "systemically-important-bank",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://cbr.ru/banking_sector/credit/cowebsites/",
+      "evidence_date": "2026-08-03"
+    },
+    {
+      "domain_suffix": "akbars.ru",
+      "classification": "regulated-payment-service",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://www.cbr.ru/registries/nps/reestr/",
+      "evidence_date": "2026-05-13"
+    },
+    {
+      "domain_suffix": "bspb.ru",
+      "classification": "regulated-payment-service",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://www.cbr.ru/registries/nps/reestr/",
+      "evidence_date": "2026-05-13"
+    },
+    {
+      "domain_suffix": "tochka.com",
+      "classification": "regulated-payment-service",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://www.cbr.ru/registries/nps/reestr/",
+      "evidence_date": "2026-05-13"
+    },
+    {
+      "domain_suffix": "yoomoney.ru",
+      "classification": "regulated-payment-service",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://www.cbr.ru/registries/nps/reestr/",
+      "evidence_date": "2026-05-13"
+    },
+    {
+      "domain_suffix": "aliexpress.ru",
+      "classification": "major-russian-marketplace",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://top100.datainsight.ru/",
+      "evidence_date": "2026-08-12"
+    },
+    {
+      "domain_suffix": "kuper.ru",
+      "classification": "major-russian-marketplace",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://top100.datainsight.ru/",
+      "evidence_date": "2026-08-12"
+    },
+    {
+      "domain_suffix": "lamoda.ru",
+      "classification": "major-russian-marketplace",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://top100.datainsight.ru/",
+      "evidence_date": "2026-08-12"
+    },
+    {
+      "domain_suffix": "magnitmarket.ru",
+      "classification": "major-russian-marketplace",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://top100.datainsight.ru/",
+      "evidence_date": "2026-08-12"
+    },
+    {
+      "domain_suffix": "youla.ru",
+      "classification": "major-russian-marketplace",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://top100.datainsight.ru/",
+      "evidence_date": "2026-08-12"
+    },
+    {
+      "domain_suffix": "beeline.ru",
+      "classification": "major-russian-telecom",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://beeline.ru/",
+      "evidence_date": "2026-08-12"
+    },
+    {
+      "domain_suffix": "rostelecom.ru",
+      "classification": "major-russian-telecom",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rostelecom.ru/",
+      "evidence_date": "2026-08-12"
+    },
+    {
+      "domain_suffix": "rt.ru",
+      "classification": "major-russian-telecom",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://rt.ru/",
+      "evidence_date": "2026-08-12"
+    },
+    {
+      "domain_suffix": "t2.ru",
+      "classification": "major-russian-telecom",
+      "action": "block",
+      "decision_basis": "operator-hard-block",
+      "evidence_url": "https://t2.ru/",
+      "evidence_date": "2026-08-12"
+    }
+  ],
   "force_direct_domain_suffixes": [
     "rutracker.org",
     "rutracker.cc",
