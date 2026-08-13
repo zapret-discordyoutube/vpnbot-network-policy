@@ -183,7 +183,32 @@
     "remarks": "Государственные ресурсы заблокированы"
   },
   {
-    "outboundTag": "block",
+    "outboundTag": "proxy",
+    "domain": [
+      "domain:4pda.to",
+      "domain:zapret.moe"
+    ],
+    "enabled": true,
+    "remarks": "Проверенные исключения всегда через VPN"
+  },
+  {
+    "outboundTag": "proxy",
+    "ip": [
+      "geoip:ru-blocked"
+    ],
+    "enabled": true,
+    "remarks": "Заблокированные в России сети через VPN"
+  },
+  {
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:ru-blocked"
+    ],
+    "enabled": true,
+    "remarks": "Заблокированные в России домены через VPN"
+  },
+  {
+    "outboundTag": "direct",
     "domain": [
       "domain:2gis.com",
       "domain:2gis.ru",
@@ -262,32 +287,7 @@
       "domain:t2.ru"
     ],
     "enabled": true,
-    "remarks": "Российские приложения, банки и маркетплейсы заблокированы"
-  },
-  {
-    "outboundTag": "proxy",
-    "domain": [
-      "domain:4pda.to",
-      "domain:zapret.moe"
-    ],
-    "enabled": true,
-    "remarks": "Проверенные исключения всегда через VPN"
-  },
-  {
-    "outboundTag": "proxy",
-    "ip": [
-      "geoip:ru-blocked"
-    ],
-    "enabled": true,
-    "remarks": "Заблокированные в России сети через VPN"
-  },
-  {
-    "outboundTag": "proxy",
-    "domain": [
-      "geosite:ru-blocked"
-    ],
-    "enabled": true,
-    "remarks": "Заблокированные в России домены через VPN"
+    "remarks": "Российские приложения, банки и маркетплейсы напрямую"
   },
   {
     "outboundTag": "direct",

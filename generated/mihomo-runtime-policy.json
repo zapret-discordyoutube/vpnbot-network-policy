@@ -1,8 +1,9 @@
 {
   "schema_version": 1,
   "policy_id": "vpnbot-network-policy-v2",
-  "policy_version": "2026.08.13.1",
-  "source_policy_sha256": "85fbd4201cb4f4ec545df9708034be85733e045f6b8ae4b20e25fc04fcd64b33",
+  "policy_version": "2026.08.13.2",
+  "russian_service_domain_action": "direct",
+  "source_policy_sha256": "2fd9d6cad615ea7fc06191159b4476b06adebeb9d88493196b74c91d146300f5",
   "provider_snapshot_sha256": "8d396f54a77552100d5b95ccebe5228350f71522088f90c59390b8e0b330f197",
   "external_provider_snapshot_sha256": "95266500aa2f41ba7e87d271c4a2508606d2e2fe0ec25dc2b187cc66f7a24cde",
   "critical_vpn_detection_domain_suffixes": [
