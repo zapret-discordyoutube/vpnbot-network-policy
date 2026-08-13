@@ -1,23 +1,23 @@
 {
   "schema_version": 1,
   "policy_id": "vpnbot-network-policy-v2",
-  "source_policy_sha256": "50493035eadde273820a35be916ce2ea761460c7df3e4b3eaabd176ec4478ae2",
-  "generated_at": "2026-08-12T20:53:04.198105+00:00",
+  "source_policy_sha256": "85fbd4201cb4f4ec545df9708034be85733e045f6b8ae4b20e25fc04fcd64b33",
+  "generated_at": "2026-08-13T10:08:28.451044+00:00",
   "files": {
     "README.md": {
-      "sha256": "6a287c90656f016e910d9b12be1d70476c8910e170bf85b79d0110f1e71bd7be",
-      "size": 4333
+      "sha256": "9656344b8f9e9e453af8bd5e8a9778ec895b6ada1eff12846e0db27991c8236c",
+      "size": 4912
     },
     "generated/destination-asn-prefixes.json": {
-      "sha256": "2d628228395e349f407ece6f2b6587e6b3cb9746389049179992aa17e7ce75a8",
+      "sha256": "d75e8018bde860670a9651d862aa70d1a0396b1a6fd176cc69338cf0b601ef9c",
       "size": 295
     },
     "generated/mihomo-runtime-policy.json": {
-      "sha256": "3e5eec5e949b796647759cf1fdfe2fa757cb1ded088ca0257ba6cac9359149a9",
-      "size": 6368
+      "sha256": "f6273aaae9745d4e2583634c63f91b904b52187242649d325391a7aa1f3b90c1",
+      "size": 7067
     },
     "generated/route-expectations.json": {
-      "sha256": "8c111d759c99eec16ed1baee5ad0c6e3312f4e3fcb2fe5ba07f3b90df33417f0",
+      "sha256": "321491e285210d4b12f0c539d4544c59e1a5af5bcd93f37587c758dc77835c1a",
       "size": 33648
     },
     "mihomo/blocked-government-domains.yaml": {
@@ -73,8 +73,8 @@
       "size": 89
     },
     "policy.json": {
-      "sha256": "50493035eadde273820a35be916ce2ea761460c7df3e4b3eaabd176ec4478ae2",
-      "size": 32256
+      "sha256": "85fbd4201cb4f4ec545df9708034be85733e045f6b8ae4b20e25fc04fcd64b33",
+      "size": 32553
     },
     "v2rayN/all.json": {
       "sha256": "cce6cbf00c544b14699b3c8a998404b9b221a38329002e4680ab5dbfe7a9e10b",

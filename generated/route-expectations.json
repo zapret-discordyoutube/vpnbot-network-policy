@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "policy_id": "vpnbot-network-policy-v2",
-  "policy_version": "2026.08.12.2",
-  "source_policy_sha256": "50493035eadde273820a35be916ce2ea761460c7df3e4b3eaabd176ec4478ae2",
+  "policy_version": "2026.08.13.1",
+  "source_policy_sha256": "85fbd4201cb4f4ec545df9708034be85733e045f6b8ae4b20e25fc04fcd64b33",
   "cases": [
     {
       "domain": "mobileproxy.passport.yandex.net",

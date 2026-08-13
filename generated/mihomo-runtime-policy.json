@@ -1,9 +1,10 @@
 {
   "schema_version": 1,
   "policy_id": "vpnbot-network-policy-v2",
-  "policy_version": "2026.08.12.2",
-  "source_policy_sha256": "50493035eadde273820a35be916ce2ea761460c7df3e4b3eaabd176ec4478ae2",
+  "policy_version": "2026.08.13.1",
+  "source_policy_sha256": "85fbd4201cb4f4ec545df9708034be85733e045f6b8ae4b20e25fc04fcd64b33",
   "provider_snapshot_sha256": "8d396f54a77552100d5b95ccebe5228350f71522088f90c59390b8e0b330f197",
+  "external_provider_snapshot_sha256": "95266500aa2f41ba7e87d271c4a2508606d2e2fe0ec25dc2b187cc66f7a24cde",
   "critical_vpn_detection_domain_suffixes": [
     "mobileproxy.passport.yandex.net",
     "relay-api.eu.2gis.com",
@@ -238,6 +239,22 @@
         "87.98.162.88/32",
         "212.129.33.59/32"
       ]
+    }
+  },
+  "external_rule_providers": {
+    "ru_blocked_domains": {
+      "behavior": "domain",
+      "format": "text",
+      "url": "https://raw.githubusercontent.com/runetfreedom/russia-blocked-geosite/release/ru-blocked.txt",
+      "path": "./ruleset/vpnbot-ru-blocked-domains.txt",
+      "interval": 21600
+    },
+    "ru_blocked_networks": {
+      "behavior": "ipcidr",
+      "format": "mrs",
+      "url": "https://raw.githubusercontent.com/runetfreedom/russia-blocked-geoip/release/mrs/ru-blocked.mrs",
+      "path": "./ruleset/vpnbot-ru-blocked-networks.mrs",
+      "interval": 21600
     }
   }
 }

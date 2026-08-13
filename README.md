@@ -4,9 +4,9 @@
 генерируются из канонического `vpnbot_egress_policy.json`; вручную списки в этом
 репозитории не редактируются.
 
-Версия политики: `2026.08.12.2`.
+Версия политики: `2026.08.13.1`.
 
-Исходная политика SHA-256: `50493035eadde273820a35be916ce2ea761460c7df3e4b3eaabd176ec4478ae2`.
+Исходная политика SHA-256: `85fbd4201cb4f4ec545df9708034be85733e045f6b8ae4b20e25fc04fcd64b33`.
 
 ## v2rayN для Windows
 
@@ -41,15 +41,20 @@ Mihomo-проекции обновляются без изменения адр�
 ## Mihomo / Clash Meta
 
 Профиль, выданный ботом, содержит 12 критических VPN-detection суффиксов прямо
-в YAML и проверенный снимок расширяемых provider-файлов. Снимок проходит
-проверку SHA-256 до попадания в релиз и встраивается как inline-provider,
-поэтому запуск профиля не зависит от доступности Forgejo. Версия политики и
-её SHA-256 видны в комментариях в начале профиля. Ручная настройка не нужна.
+в YAML и проверенный снимок собственных provider-файлов. Большие динамические
+списки `ru-blocked` подключаются отдельными штатными rule-provider: домены в
+текстовом формате, сети в двоичном формате Mihomo MRS. Поэтому клиенту не нужно
+успеть заменить встроенную `geosite.dat` до первой проверки YAML; оба внешних
+списка обновляются самим Mihomo каждые шесть часов. Версия политики и её
+SHA-256 видны в комментариях в начале профиля. Ручная настройка не нужна.
 
 ## Внешние данные
 
-- `geoip:ru-blocked`, `geosite:ru-blocked`, `geoip:ru` и
-  `geosite:category-ru` предоставляет
+- Mihomo получает `ru-blocked` как отдельные domain/IP rule-provider из
+  [runetfreedom/russia-blocked-geosite](https://github.com/runetfreedom/russia-blocked-geosite)
+  и [runetfreedom/russia-blocked-geoip](https://github.com/runetfreedom/russia-blocked-geoip).
+  v2rayN продолжает получать `geoip:ru-blocked`, `geosite:ru-blocked`,
+  `geoip:ru` и `geosite:category-ru` из
   [runetfreedom/russia-v2ray-rules-dat](https://github.com/runetfreedom/russia-v2ray-rules-dat).
 - Коммерческие ASN Яндекса, VK и Ozon намеренно не блокируются: ASN слишком
   широк для безопасной государственной границы и может содержать обычных
