@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "policy_id": "vpnbot-network-policy-v2",
-  "policy_version": "2026.08.13.2",
+  "policy_version": "2026.08.14.1",
   "russian_service_domain_action": "direct",
-  "source_policy_sha256": "2fd9d6cad615ea7fc06191159b4476b06adebeb9d88493196b74c91d146300f5",
-  "provider_snapshot_sha256": "8d396f54a77552100d5b95ccebe5228350f71522088f90c59390b8e0b330f197",
+  "source_policy_sha256": "4dcad85e5c5a427ce8e7b5afe396d2dc627508807866f0ac9816d337a147edd2",
+  "provider_snapshot_sha256": "041c3903222109f1d4f6de8036782a0ecce81a3f2bf182bc9dcce606900e2d0e",
   "external_provider_snapshot_sha256": "95266500aa2f41ba7e87d271c4a2508606d2e2fe0ec25dc2b187cc66f7a24cde",
   "critical_vpn_detection_domain_suffixes": [
     "mobileproxy.passport.yandex.net",
@@ -16,9 +16,11 @@
     "ipv4-internet.yandex.net",
     "ipv6-internet.yandex.net",
     "trace-flow.ru",
-    "api.oneme.ru",
     "vk-analytics.ru",
     "apptracer.ru"
+  ],
+  "client_direct_server_block_domain_suffixes": [
+    "api.oneme.ru"
   ],
   "providers": {
     "vpn_detection_extensions": {
@@ -136,7 +138,8 @@
       "behavior": "domain",
       "payload": [
         "+.loopy.ru",
-        "+.championat.com"
+        "+.championat.com",
+        "+.api.oneme.ru"
       ]
     },
     "peer_to_peer_domains": {

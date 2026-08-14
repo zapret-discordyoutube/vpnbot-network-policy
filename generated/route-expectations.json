@@ -1,9 +1,18 @@
 {
   "schema_version": 1,
   "policy_id": "vpnbot-network-policy-v2",
-  "policy_version": "2026.08.13.2",
-  "source_policy_sha256": "2fd9d6cad615ea7fc06191159b4476b06adebeb9d88493196b74c91d146300f5",
+  "policy_version": "2026.08.14.1",
+  "source_policy_sha256": "4dcad85e5c5a427ce8e7b5afe396d2dc627508807866f0ac9816d337a147edd2",
   "cases": [
+    {
+      "domain": "api.oneme.ru",
+      "expected_route": "direct",
+      "policy_class": "server-block-client-direct-override",
+      "inline_required": true,
+      "profile_modes": [
+        "all"
+      ]
+    },
     {
       "domain": "mobileproxy.passport.yandex.net",
       "expected_route": "block",
@@ -78,15 +87,6 @@
     },
     {
       "domain": "trace-flow.ru",
-      "expected_route": "block",
-      "policy_class": "vpn-detection-inline-critical",
-      "inline_required": true,
-      "profile_modes": [
-        "all"
-      ]
-    },
-    {
-      "domain": "api.oneme.ru",
       "expected_route": "block",
       "policy_class": "vpn-detection-inline-critical",
       "inline_required": true,

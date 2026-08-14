@@ -118,7 +118,7 @@
   },
   "blocked_destination_cidrs": [],
   "client_routing": {
-    "policy_version": "2026.08.13.2",
+    "policy_version": "2026.08.14.1",
     "russian_service_domain_action": "direct",
     "public_repository_url": "https://git.zapret.moe/zapretkvn/vpnbot-network-policy",
     "raw_base_url": "https://git.zapret.moe/zapretkvn/vpnbot-network-policy/raw/branch/main",
@@ -156,6 +156,7 @@
       "domain_suffix": "mobileproxy.passport.yandex.net",
       "classification": "dedicated-vpn-detection",
       "client_rule_tier": "inline-critical",
+      "client_action": "block",
       "action": "block",
       "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
       "evidence_date": "2026-04-16"
@@ -164,6 +165,7 @@
       "domain_suffix": "relay-api.eu.2gis.com",
       "classification": "dedicated-vpn-detection",
       "client_rule_tier": "inline-critical",
+      "client_action": "block",
       "action": "block",
       "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
       "evidence_date": "2026-04-16"
@@ -172,6 +174,7 @@
       "domain_suffix": "api.ipify.org",
       "classification": "public-ip-discovery",
       "client_rule_tier": "inline-critical",
+      "client_action": "block",
       "action": "block",
       "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
       "evidence_date": "2026-04-16"
@@ -180,6 +183,7 @@
       "domain_suffix": "checkip.amazonaws.com",
       "classification": "public-ip-discovery",
       "client_rule_tier": "inline-critical",
+      "client_action": "block",
       "action": "block",
       "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
       "evidence_date": "2026-04-16"
@@ -188,6 +192,7 @@
       "domain_suffix": "ifconfig.me",
       "classification": "public-ip-discovery",
       "client_rule_tier": "inline-critical",
+      "client_action": "block",
       "action": "block",
       "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
       "evidence_date": "2026-04-16"
@@ -196,6 +201,7 @@
       "domain_suffix": "ip.mail.ru",
       "classification": "public-ip-discovery",
       "client_rule_tier": "inline-critical",
+      "client_action": "block",
       "action": "block",
       "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
       "evidence_date": "2026-04-16"
@@ -204,6 +210,7 @@
       "domain_suffix": "ipv4-internet.yandex.net",
       "classification": "public-ip-discovery",
       "client_rule_tier": "inline-critical",
+      "client_action": "block",
       "action": "block",
       "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
       "evidence_date": "2026-04-16"
@@ -212,6 +219,7 @@
       "domain_suffix": "ipv6-internet.yandex.net",
       "classification": "public-ip-discovery",
       "client_rule_tier": "inline-critical",
+      "client_action": "block",
       "action": "block",
       "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
       "evidence_date": "2026-04-16"
@@ -220,6 +228,7 @@
       "domain_suffix": "trace-flow.ru",
       "classification": "vpn-status-exfiltration",
       "client_rule_tier": "inline-critical",
+      "client_action": "block",
       "action": "block",
       "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
       "evidence_date": "2026-04-16"
@@ -228,6 +237,7 @@
       "domain_suffix": "api.oneme.ru",
       "classification": "vpn-status-exfiltration",
       "client_rule_tier": "inline-critical",
+      "client_action": "direct",
       "action": "block",
       "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
       "evidence_date": "2026-04-16"
@@ -236,6 +246,7 @@
       "domain_suffix": "vk-analytics.ru",
       "classification": "vpn-status-exfiltration",
       "client_rule_tier": "inline-critical",
+      "client_action": "block",
       "action": "block",
       "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
       "evidence_date": "2026-04-16"
@@ -244,6 +255,7 @@
       "domain_suffix": "apptracer.ru",
       "classification": "vpn-status-exfiltration",
       "client_rule_tier": "inline-critical",
+      "client_action": "block",
       "action": "block",
       "evidence_url": "https://rks.global/files/research/russian_apps_search_for_vpn_en.pdf",
       "evidence_date": "2026-04-16"

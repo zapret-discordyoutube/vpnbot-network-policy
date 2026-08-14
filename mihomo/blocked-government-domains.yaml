@@ -20,7 +20,6 @@ payload:
   - "+.ipv4-internet.yandex.net"
   - "+.ipv6-internet.yandex.net"
   - "+.trace-flow.ru"
-  - "+.api.oneme.ru"
   - "+.vk-analytics.ru"
   - "+.apptracer.ru"
   - "+.tracker.opentrackr.org"

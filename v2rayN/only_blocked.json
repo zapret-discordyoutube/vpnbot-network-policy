@@ -45,6 +45,14 @@
     "remarks": "Discord voice через VPN"
   },
   {
+    "outboundTag": "direct",
+    "domain": [
+      "domain:api.oneme.ru"
+    ],
+    "enabled": true,
+    "remarks": "Клиентские исключения из серверной блокировки напрямую"
+  },
+  {
     "outboundTag": "block",
     "domain": [
       "domain:mobileproxy.passport.yandex.net",
@@ -56,7 +64,6 @@
       "domain:ipv4-internet.yandex.net",
       "domain:ipv6-internet.yandex.net",
       "domain:trace-flow.ru",
-      "domain:api.oneme.ru",
       "domain:vk-analytics.ru",
       "domain:apptracer.ru"
     ],
@@ -293,7 +300,8 @@
     "outboundTag": "direct",
     "domain": [
       "domain:loopy.ru",
-      "domain:championat.com"
+      "domain:championat.com",
+      "domain:api.oneme.ru"
     ],
     "enabled": true,
     "remarks": "Проверенные российские сайты напрямую"
