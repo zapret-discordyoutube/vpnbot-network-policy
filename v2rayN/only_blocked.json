@@ -53,6 +53,24 @@
     "remarks": "Клиентские исключения из серверной блокировки напрямую"
   },
   {
+    "outboundTag": "direct",
+    "domain": [
+      "domain:gov.ru",
+      "domain:government.ru",
+      "domain:kremlin.ru",
+      "domain:gosuslugi.ru",
+      "domain:mil.ru",
+      "domain:fsb.ru",
+      "domain:sudrf.ru",
+      "domain:sledcom.ru",
+      "domain:cikrf.ru",
+      "domain:mos.ru",
+      "domain:xn--b1aew.xn--p1ai"
+    ],
+    "enabled": true,
+    "remarks": "Государственные сайты напрямую, VPN-сервер их отклоняет"
+  },
+  {
     "outboundTag": "block",
     "domain": [
       "domain:mobileproxy.passport.yandex.net",
@@ -170,23 +188,6 @@
     ],
     "enabled": true,
     "remarks": "Торрент-трекеры и DHT заблокированы"
-  },
-  {
-    "outboundTag": "block",
-    "domain": [
-      "domain:gov.ru",
-      "domain:government.ru",
-      "domain:kremlin.ru",
-      "domain:gosuslugi.ru",
-      "domain:mil.ru",
-      "domain:fsb.ru",
-      "domain:sudrf.ru",
-      "domain:sledcom.ru",
-      "domain:cikrf.ru",
-      "domain:xn--b1aew.xn--p1ai"
-    ],
-    "enabled": true,
-    "remarks": "Государственные ресурсы заблокированы"
   },
   {
     "outboundTag": "proxy",

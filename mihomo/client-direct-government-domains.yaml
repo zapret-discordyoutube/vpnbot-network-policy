@@ -1,0 +1,13 @@
+# Generated government destinations that use DIRECT in clients while every VPN server still rejects them.
+payload:
+  - "+.gov.ru"
+  - "+.government.ru"
+  - "+.kremlin.ru"
+  - "+.gosuslugi.ru"
+  - "+.mil.ru"
+  - "+.fsb.ru"
+  - "+.sudrf.ru"
+  - "+.sledcom.ru"
+  - "+.cikrf.ru"
+  - "+.mos.ru"
+  - "+.xn--b1aew.xn--p1ai"

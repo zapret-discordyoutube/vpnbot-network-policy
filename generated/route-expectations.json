@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "policy_id": "vpnbot-network-policy-v2",
-  "policy_version": "2026.08.14.1",
-  "source_policy_sha256": "cfe1d7c3e233fc7c3d328622375fa870db811e1eb3e6eb4f85a84fc677c6bbe9",
+  "policy_version": "2026.08.21.1",
+  "source_policy_sha256": "967c0e0b8398f072195b1c70b4e0dea66d8d30c17aa2d3fe3f9332b4ae872283",
   "cases": [
     {
       "domain": "api.oneme.ru",
@@ -114,8 +114,8 @@
     },
     {
       "domain": "gov.ru",
-      "expected_route": "block",
-      "policy_class": "government-destination",
+      "expected_route": "direct",
+      "policy_class": "government-destination-client-direct",
       "inline_required": false,
       "profile_modes": [
         "all"
@@ -123,8 +123,8 @@
     },
     {
       "domain": "government.ru",
-      "expected_route": "block",
-      "policy_class": "government-destination",
+      "expected_route": "direct",
+      "policy_class": "government-destination-client-direct",
       "inline_required": false,
       "profile_modes": [
         "all"
@@ -132,8 +132,8 @@
     },
     {
       "domain": "kremlin.ru",
-      "expected_route": "block",
-      "policy_class": "government-destination",
+      "expected_route": "direct",
+      "policy_class": "government-destination-client-direct",
       "inline_required": false,
       "profile_modes": [
         "all"
@@ -141,8 +141,8 @@
     },
     {
       "domain": "gosuslugi.ru",
-      "expected_route": "block",
-      "policy_class": "government-destination",
+      "expected_route": "direct",
+      "policy_class": "government-destination-client-direct",
       "inline_required": false,
       "profile_modes": [
         "all"
@@ -150,8 +150,8 @@
     },
     {
       "domain": "mil.ru",
-      "expected_route": "block",
-      "policy_class": "government-destination",
+      "expected_route": "direct",
+      "policy_class": "government-destination-client-direct",
       "inline_required": false,
       "profile_modes": [
         "all"
@@ -159,8 +159,8 @@
     },
     {
       "domain": "fsb.ru",
-      "expected_route": "block",
-      "policy_class": "government-destination",
+      "expected_route": "direct",
+      "policy_class": "government-destination-client-direct",
       "inline_required": false,
       "profile_modes": [
         "all"
@@ -168,8 +168,8 @@
     },
     {
       "domain": "sudrf.ru",
-      "expected_route": "block",
-      "policy_class": "government-destination",
+      "expected_route": "direct",
+      "policy_class": "government-destination-client-direct",
       "inline_required": false,
       "profile_modes": [
         "all"
@@ -177,8 +177,8 @@
     },
     {
       "domain": "sledcom.ru",
-      "expected_route": "block",
-      "policy_class": "government-destination",
+      "expected_route": "direct",
+      "policy_class": "government-destination-client-direct",
       "inline_required": false,
       "profile_modes": [
         "all"
@@ -186,8 +186,17 @@
     },
     {
       "domain": "cikrf.ru",
-      "expected_route": "block",
-      "policy_class": "government-destination",
+      "expected_route": "direct",
+      "policy_class": "government-destination-client-direct",
+      "inline_required": false,
+      "profile_modes": [
+        "all"
+      ]
+    },
+    {
+      "domain": "mos.ru",
+      "expected_route": "direct",
+      "policy_class": "government-destination-client-direct",
       "inline_required": false,
       "profile_modes": [
         "all"
@@ -195,8 +204,8 @@
     },
     {
       "domain": "xn--b1aew.xn--p1ai",
-      "expected_route": "block",
-      "policy_class": "government-destination",
+      "expected_route": "direct",
+      "policy_class": "government-destination-client-direct",
       "inline_required": false,
       "profile_modes": [
         "all"
