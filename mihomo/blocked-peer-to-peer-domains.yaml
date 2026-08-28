@@ -1,3 +1,4 @@
+# CLIENT-ONLY generated projection; not a node-side firewall, server-egress policy, or editable source.
 # Generated peer-to-peer tracker and DHT destination suffixes.
 payload:
   - "+.tracker.opentrackr.org"

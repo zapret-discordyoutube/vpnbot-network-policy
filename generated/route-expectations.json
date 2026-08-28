@@ -1,5 +1,9 @@
 {
   "schema_version": 1,
+  "projection_kind": "client-routing",
+  "projection_scope": "end-user-device",
+  "canonical_owner": "private-node-services-network-policy",
+  "editable_source": false,
   "policy_id": "vpnbot-network-policy-v2",
   "policy_version": "2026.08.21.1",
   "source_policy_sha256": "967c0e0b8398f072195b1c70b4e0dea66d8d30c17aa2d3fe3f9332b4ae872283",

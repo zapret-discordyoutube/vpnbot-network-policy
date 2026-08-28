@@ -1,2 +1,3 @@
+# CLIENT-ONLY generated projection; not a node-side firewall, server-egress policy, or editable source.
 # Generated non-critical VPN-detection provider extensions.
 payload: []

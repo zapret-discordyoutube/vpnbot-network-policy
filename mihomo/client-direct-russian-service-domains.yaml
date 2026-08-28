@@ -1,3 +1,4 @@
+# CLIENT-ONLY generated projection; not a node-side firewall, server-egress policy, or editable source.
 # Generated Russian apps, banks and marketplaces that use DIRECT in clients.
 payload:
   - "+.2gis.com"

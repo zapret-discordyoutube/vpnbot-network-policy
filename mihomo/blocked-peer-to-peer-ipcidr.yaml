@@ -1,3 +1,4 @@
+# CLIENT-ONLY generated projection; not a node-side firewall, server-egress policy, or editable source.
 # Generated exact peer-to-peer discovery destination CIDRs.
 payload:
   - "93.158.213.92/32"

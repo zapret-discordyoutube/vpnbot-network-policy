@@ -1,3 +1,4 @@
+# CLIENT-ONLY generated projection; not a node-side firewall, server-egress policy, or editable source.
 # Compatibility deny provider for existing Mihomo profiles. Government destinations now use DIRECT in clients.
 payload:
   - "+.mobileproxy.passport.yandex.net"

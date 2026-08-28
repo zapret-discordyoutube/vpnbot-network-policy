@@ -1,3 +1,4 @@
+# CLIENT-ONLY generated projection; not a node-side firewall, server-egress policy, or editable source.
 # Generated government destinations that use DIRECT in clients while every VPN server still rejects them.
 payload:
   - "+.gov.ru"

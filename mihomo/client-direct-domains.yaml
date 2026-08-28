@@ -1,3 +1,4 @@
+# CLIENT-ONLY generated projection; not a node-side firewall, server-egress policy, or editable source.
 # Generated exact client domain suffixes that must use DIRECT.
 payload:
   - "+.loopy.ru"

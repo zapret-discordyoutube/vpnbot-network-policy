@@ -1,3 +1,4 @@
+# CLIENT-ONLY generated projection; not a node-side firewall, server-egress policy, or editable source.
 # Generated VPN-detection and VPN-address exfiltration destinations.
 payload:
   - "+.mobileproxy.passport.yandex.net"
