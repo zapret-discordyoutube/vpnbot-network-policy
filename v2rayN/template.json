@@ -1,5 +1,5 @@
 {
-  "version": "VPnBot-Network-v2",
+  "version": "VPnBot-Network-v3",
   "routingItems": [
     {
       "remarks": "VPnBot: Россия напрямую, остальное через VPN",
