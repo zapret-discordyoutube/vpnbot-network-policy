@@ -2,11 +2,11 @@
   "schema_version": 1,
   "projection_kind": "client-routing",
   "projection_scope": "end-user-device",
-  "canonical_owner": "private-node-services-network-policy",
+  "canonical_owner": "vpnbot-network-policy",
   "editable_source": false,
   "policy_id": "vpnbot-network-policy-v3",
   "policy_version": "2026.08.28.1",
-  "source_policy_sha256": "1f4da68ff81dc927474991d7621750c2cfdae5b9cbde7b7b900b0d9217ba71f0",
+  "source_policy_sha256": "e42b86d6ece853b56053db0effbd284704c18e3ccc88556cd3b0bc211a52e945",
   "cases": [
     {
       "domain": "api.oneme.ru",

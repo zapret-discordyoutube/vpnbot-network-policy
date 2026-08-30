@@ -2,28 +2,27 @@
   "schema_version": 1,
   "projection_kind": "client-routing",
   "projection_scope": "end-user-device",
-  "canonical_owner": "private-node-services-network-policy",
-  "editable_source": false,
+  "canonical_owner": "vpnbot-network-policy",
+  "editable_source": true,
   "public_repository": "https://git.zapret.moe/zapretkvn/vpnbot-network-policy",
   "policy_id": "vpnbot-network-policy-v3",
-  "source_policy_sha256": "1f4da68ff81dc927474991d7621750c2cfdae5b9cbde7b7b900b0d9217ba71f0",
-  "generated_at": "2026-08-28T19:36:08.925453+00:00",
+  "source_policy_sha256": "e42b86d6ece853b56053db0effbd284704c18e3ccc88556cd3b0bc211a52e945",
   "files": {
     "README.md": {
-      "sha256": "24e534ddbd1e420f3bbefd1e4688b6b153a0de0d2f81d6aa735e395cca204c97",
-      "size": 6975
+      "sha256": "420c0bb59eaf389efb3282423883113b746314dbdc1fc2a117b3988e845a706d",
+      "size": 6910
     },
     "generated/destination-asn-prefixes.json": {
-      "sha256": "7e0d1af3cecd7398ee1fb59173d6d7e59369011a2cc63e6cecfd71f15ab0b8f2",
-      "size": 295
+      "sha256": "4dd1e6f61b08f9631ad01e3532234d3f826f04177f65bb0e6b43c635820212a6",
+      "size": 265
     },
     "generated/mihomo-runtime-policy.json": {
-      "sha256": "81ac115bd9a0b4277e9b16142da5aabe51f0eb2b4834927332063fc640a311bd",
-      "size": 7401
+      "sha256": "f34fa2a3fa067133e1d6b339dee96c3ae6e479c13f1b1109bb1fdf2b37c6dfc3",
+      "size": 7386
     },
     "generated/route-expectations.json": {
-      "sha256": "06bfc89411dfef8c08bdec6cf24403f0d08083428b536935de4ef444a8e18d2d",
-      "size": 34289
+      "sha256": "fbddf9550916e6a0947e6a3b43534e1a6d5a86bccb2579ed093afcce2e1286ea",
+      "size": 34274
     },
     "mihomo/blocked-government-domains.yaml": {
       "sha256": "abe604b81ed3937cfbcb0a09a9a67e96fdc54fb1aa4d9bd84839e24641835404",
@@ -86,8 +85,8 @@
       "size": 193
     },
     "policy.json": {
-      "sha256": "1f4da68ff81dc927474991d7621750c2cfdae5b9cbde7b7b900b0d9217ba71f0",
-      "size": 35986
+      "sha256": "e42b86d6ece853b56053db0effbd284704c18e3ccc88556cd3b0bc211a52e945",
+      "size": 27674
     },
     "v2rayN/all.json": {
       "sha256": "ad5579133e12b793d19f0a8c001e09b6272ab7102c9a62f4dbba7ffe78fc1d77",
