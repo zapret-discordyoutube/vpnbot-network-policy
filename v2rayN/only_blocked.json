@@ -193,6 +193,7 @@
     "outboundTag": "proxy",
     "domain": [
       "domain:4pda.to",
+      "domain:elevenlabs.io",
       "domain:zapret.moe"
     ],
     "enabled": true,

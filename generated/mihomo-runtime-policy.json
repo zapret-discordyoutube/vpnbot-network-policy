@@ -8,8 +8,8 @@
   "policy_version": "2026.08.28.1",
   "russian_service_domain_action": "direct",
   "government_domain_action": "direct",
-  "source_policy_sha256": "e42b86d6ece853b56053db0effbd284704c18e3ccc88556cd3b0bc211a52e945",
-  "provider_snapshot_sha256": "041c3903222109f1d4f6de8036782a0ecce81a3f2bf182bc9dcce606900e2d0e",
+  "source_policy_sha256": "503d5cb4e862cee9482fe05f2741717ab2c237abb26c511cd4cfeb70fdbeef0c",
+  "provider_snapshot_sha256": "6067ed73e0e8bb4e8cb459190185ea27a09b4f696ab3e747299d35d2dd3bc70f",
   "external_provider_snapshot_sha256": "95266500aa2f41ba7e87d271c4a2508606d2e2fe0ec25dc2b187cc66f7a24cde",
   "critical_vpn_detection_domain_suffixes": [
     "mobileproxy.passport.yandex.net",
@@ -136,6 +136,7 @@
       "behavior": "domain",
       "payload": [
         "+.4pda.to",
+        "+.elevenlabs.io",
         "+.zapret.moe"
       ]
     },

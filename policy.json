@@ -120,6 +120,7 @@
     ],
     "proxy_domain_suffixes": [
       "4pda.to",
+      "elevenlabs.io",
       "zapret.moe"
     ],
     "refresh_interval_seconds": 21600
